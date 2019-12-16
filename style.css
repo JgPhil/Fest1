@@ -9,15 +9,14 @@
 	}
 	
 	#present {
-		display: none;
+		font-size: 1.2rem !important;
 	}
 
 	#btnFilm, #btnActu{
-		display: block;
-		display: none;
+		width: 50%;
 	}
 	#don {
-		height: 50%;
+		
 	}
 
 	h1 {
@@ -30,9 +29,13 @@
 	#maps {
 		text-align: center;
 	}
+	#intro {
+		font-size: 1.5rem;
+	}
 
 
 }
+
 
 
 
@@ -51,17 +54,18 @@
     background-color: #9DBCD7;
     border-radius:20px;
     min-height:20vw;
-
-    
+    margin-top: 10vw !important;
 }
 
 
-a{
-	 font-family: 'baskervville, serif';
-	 margin: 0 50px 0 50px;
-	 text-align: center;
-	 
 
+
+a.nav-link {
+	font-size: 1.3rem;
+	font-family: 'baskervville, serif';
+	 margin: 0 2vw 0 2vw;
+	 text-align: center;
+	 color: #FFC107;
 }
 
 
@@ -77,6 +81,7 @@ a{
 	margin: 10px 10px 10px 10px;
 	padding: 10px 10px 10px 10px;
 	background-color: #9DBCD7;
+	
 
 }
 
@@ -87,6 +92,8 @@ a{
 	font-size: 2.5rem;
 	min-height: 30px;
 	font-family: Baskervville, serif;
+	padding-top: 0.8vw;
+	padding-bottom: 0.8vw;
 
 }
 
@@ -102,7 +109,7 @@ a{
 }
 #titreInfos {
 	margin-top: 10vw;
-	margin-bottom: 10vw;
+	margin-bottom: 8vw;
 	padding: 20px 20px 20px 20px;
 	justify-content: center;
 	align-items: center;
@@ -124,7 +131,7 @@ a{
 h1 {
 	font-weight: bold;
 	text-align: center;
-	font-size: 3rem;
+	font-size: 2.9rem;
 	min-height: 30px;
 	background-color: #9DBCD7 ;
 	font-family: Baskervville, serif;
@@ -148,7 +155,8 @@ body{
 	margin-bottom: 2vw;
 }
 
-#infos {
-	height: 140vw;
+
+#don {
+	min-width: 400px;
 }
 

@@ -15,15 +15,15 @@
   <body>
 
     <!-- NAV -->
-    <nav class = "navbar navbar-expand-md navbar-light bg-dark fixed-top" id="navig">
+    <nav class = "navbar navbar-expand-md bg-dark fixed-top" id="navig">
       <a href="#"><img src="Images/logo.png" width="80" height="80" alt="Logo"></a>
       <button type="button" class = "navbar-toggler bg-light" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse justify-content-between " id="nav">
 
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link text-light font-weight-bold text-uppercase px-3" href="index.html">Accueil</a></li>
-          <li class="nav-item"><a class="nav-link text-light font-weight-bold text-uppercase px-3" href="Actualités.html">Actualités</a></li>
-          <li class="nav-item"><a class="nav-link text-light font-weight-bold text-uppercase px-3" href="infos.html">Infos pratiques</a></li>
+          <li class="nav-item"><a class="nav-link font-weight-bold text-uppercase px-3" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link font-weight-bold text-uppercase px-3" href="Actualités.html">Actualités</a></li>
+          <li class="nav-item"><a class="nav-link font-weight-bold text-uppercase px-3" href="infos.html">Infos pratiques</a></li>
         </ul>
       </div>
     </nav>
@@ -39,41 +39,42 @@
      </div>
 
      <div class="container-">
-      <div id="don"class="row align-items-center justify-content-center ">
+      <div id="don" class="row align-items-center justify-content-center ">
        <form id= "inscription" class="col-lg-4 contact-box col-md-12">
+        <fieldset>
+          <legend>Pré-inscription aux scéances</legend>
+          <label for="nom">Nom </label>
+          <input id="nom" type="text" class="form-control">
 
-        <legend>Pré-inscription aux scéances</legend>
-        <label for="nom">Nom </label>
-        <input id="nom" type="text" class="form-control">
+          <label for="prenom">Prenom </label>
+          <input id="prenom" type="text" class="form-control">
 
-        <label for="prenom">Prenom </label>
-        <input id="prenom" type="text" class="form-control">
-
-        <label for="nbpart">Nombre de participants</label>
-        <select id="nbPart" type="number" class="form-control">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-        </select>
+          <label for="nbpart">Nombre de participants</label>
+          <select id="nbPart" class="form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
 
 
-        <label for="phone">Numéro de téléphone : </label>
-        <input type="tel" id="phone" name="phone"
-        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" 
-        required>
+          <label for="phone">Numéro de téléphone : </label>
+          <input type="tel" id="phone" name="phone"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" 
+          required>
 
-        <label for="scéance">Choix de la scéance</label>
-        <select id="scéance" class="form-control">
-         <option>film1</option>
-         <option>film2</option>
-         <option>film3</option>
-         <option>film1</option>
-         <option>film2</option>
-         <option>film3</option>
-       </select>
-       <br>
-       <button>Envoyer</button>
+          <label for="scéance">Choix de la scéance</label>
+          <select id="scéance" class="form-control">
+           <option>film1</option>
+           <option>film2</option>
+           <option>film3</option>
+           <option>film1</option>
+           <option>film2</option>
+           <option>film3</option>
+         </select>
+         <br>
+         <button>Envoyer</button>
+       </fieldset>
      </form>
      
      <!--Fin du formulaire-->
@@ -84,6 +85,7 @@
      <div id="maps" class="col-lg-6 col-md-12 map-responsive">
        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1560.1823034532651!2d2.3081876393952565!3d48.879117810141736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1576007816572!5m2!1sfr!2sfr" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
      </div>
+
    </div>
  </div>
 </section>
