@@ -29,19 +29,28 @@
     </nav>
 
     <!--formulaire d'inscription -->
-    <div class="container-fluid" id="infos">
-      <div class="row align-items-center justify-content-center ">
+    <section  id="infos">
+      <div class="container">
+        <div class="row" >
+          <div  id="titreInfos" class="col-lg-8 col-sm-10 justify-content-center">
+           <h1>Inscrivrez-vous & Rejoignez-nous</h1>
+         </div>
+       </div>
+     </div>
+
+     <div class="container-">
+      <div id="don"class="row align-items-center justify-content-center ">
        <form id= "inscription" class="col-lg-4 contact-box col-md-12">
 
         <legend>Pré-inscription aux scéances</legend>
-         <label for="nom">Nom </label>
-         <input id="nom" type="text" class="form-control">
+        <label for="nom">Nom </label>
+        <input id="nom" type="text" class="form-control">
 
-         <label for="prenom">Prenom </label>
-         <input id="prenom" type="text" class="form-control">
+        <label for="prenom">Prenom </label>
+        <input id="prenom" type="text" class="form-control">
 
-         <label for="nbpart">Nombre de participants</label>
-         <select id="nbPart" type="number" class="form-control">
+        <label for="nbpart">Nombre de participants</label>
+        <select id="nbPart" type="number" class="form-control">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -54,8 +63,8 @@
         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" 
         required>
 
-        <label for="select">Select : </label>
-        <select id="select" class="form-control">
+        <label for="scéance">Choix de la scéance</label>
+        <select id="scéance" class="form-control">
          <option>film1</option>
          <option>film2</option>
          <option>film3</option>
@@ -77,8 +86,9 @@
      </div>
    </div>
  </div>
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"    crossorigin="anonymous"></script> 
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"    crossorigin="anonymous"></script> 
 </body>
 </html>
