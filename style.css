@@ -58,7 +58,10 @@
 }
 
 
-
+a.btn {
+	font-weight: bold !important;
+	font-size: 1.5rem !important;
+}
 
 a.nav-link {
 	font-size: 1.3rem;
@@ -81,6 +84,7 @@ a.nav-link {
 	margin: 10px 10px 10px 10px;
 	padding: 10px 10px 10px 10px;
 	background-color: #9DBCD7;
+	box-shadow: 3px 3px 5px black;
 	
 
 }
@@ -97,17 +101,7 @@ a.nav-link {
 
 }
 
-#titreActus{
-	
-	margin-top: 10vw;
-	padding: 20px 20px 20px 20px;
-	justify-content: center;
-	align-items: center;
-	border-radius: 10px;
-	font-weight: bold;
-
-}
-#titreInfos {
+#titreInfos, #titreActus {
 	margin-top: 10vw;
 	margin-bottom: 8vw;
 	padding: 20px 20px 20px 20px;
@@ -116,12 +110,15 @@ a.nav-link {
 	border-radius: 10px;
 	font-weight: bold;
 	background-color: #9DBCD7;
+	box-shadow: 3px 3px 5px black;
 }
 
 #actus, #infos {
 	background-image: url("Images/openAir.jpg");
-    
+    min-height: 1000px;
 }
+
+
 .img-card-top {
     
    
@@ -141,10 +138,11 @@ h2  {
 	font-weight: bold;
 	font-size: 2.5rem;
 }
+h5 {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
 button{
-	background-color: #FFC107;
-	color: black;
-	text-align: center
 	border-radius: 15px;
 }
 body{
@@ -153,10 +151,25 @@ body{
 
 .descr {
 	margin-bottom: 2vw;
+	min-height: 220px;
+
 }
-
-
 #don {
 	min-width: 400px;
 }
 
+#map {
+	width: 400px;
+	height: 440px;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	box-shadow: 3px 3px 5px black;
+}
+
+#insText {
+
+	font-size: 1.5em;
+}
+article {
+	box-shadow: 3px 3px 5px black;
+}

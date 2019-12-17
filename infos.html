@@ -82,12 +82,26 @@
      <!--Début Google Maps-->
 
      
-     <div id="maps" class="col-lg-6 col-md-12 map-responsive">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1560.1823034532651!2d2.3081876393952565!3d48.879117810141736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1576007816572!5m2!1sfr!2sfr" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-     </div>
+     <!--Google map-->
+     <div id="map"class="row">
+     <div class= "col-lg-6 col-md-8 col-sm-10" ></div>
+     <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 48.879, lng: 2.308},
+          zoom: 15
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtmULe1AMHTaffQFM-UudXlZ_p7MtRfZ0&callback=initMap"
+    async defer></script>
+  </div>
 
-   </div>
- </div>
+    <!--Google Maps-->
+
+  </div>
+</div>
 </section>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
