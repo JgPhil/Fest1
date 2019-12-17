@@ -102,8 +102,8 @@ a.nav-link {
 }
 
 #titreInfos, #titreActus {
-	margin-top: 10vw;
-	margin-bottom: 8vw;
+	margin-top: 15vw;
+	margin-bottom: 2vw;
 	padding: 20px 20px 20px 20px;
 	justify-content: center;
 	align-items: center;
@@ -172,4 +172,8 @@ body{
 }
 article {
 	box-shadow: 3px 3px 5px black;
+}
+
+legend {
+	font-weight: bold;
 }
