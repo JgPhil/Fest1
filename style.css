@@ -31,7 +31,9 @@
 	#intro {
 		font-size: 1.5rem;
 	}
-
+#titreInfos, #titreActus, #intro {
+	margin-top: 17vw !important;
+}
 
 }
 
@@ -57,8 +59,9 @@ button.navbar-toggler{
     background-color: #9DBCD7;
     border-radius:20px;
     min-height:20vw;
-    margin-top: 10vw !important;
+    margin-top: 8vw !important;
     box-shadow: 3px 3px 5px black;
+    padding-top: 20px;
 }
 
 
@@ -105,8 +108,12 @@ a.nav-link {
 
 }
 
+span {
+	font-size: 1.5rem;
+
+}
 #titreInfos, #titreActus {
-	margin-top: 15vw;
+	margin-top: 8vw;
 	margin-bottom: 2vw;
 	padding: 20px 20px 20px 20px;
 	justify-content: center;
@@ -142,7 +149,7 @@ h2  {
 	font-weight: bold;
 	font-size: 2.5rem;
 }
-h5 {
+h3 {
 	font-weight: bold;
 	font-size: 1.5rem;
 }
@@ -170,9 +177,9 @@ body{
 	box-shadow: 3px 3px 5px black;
 }
 
-#insText {
-
+.insText {
 	font-size: 1.5em;
+	color: #FFC107;
 }
 article {
 	box-shadow: 3px 3px 5px black;
