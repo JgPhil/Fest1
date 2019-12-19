@@ -2,8 +2,7 @@
 @media screen and (max-width: 1000px) {
 
 	#inscription{ 
-		margin-bottom: 10px;
-		margin-top: 0px;
+		
 		max-width: 75%;
 
 	}
@@ -36,10 +35,14 @@
 
 }
 
+button.navbar-toggler{
+	
+	-webkit-appearance: button !important;
+	background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=#FFC107');
+	background-color: #FFC107 !important;
+}
 
-
-
-#banner{
+#titreIndex{
 	background-image: url(Images/openAir.jpg);
 	background-size: cover;
     font-size: 2em;
@@ -55,6 +58,7 @@
     border-radius:20px;
     min-height:20vw;
     margin-top: 10vw !important;
+    box-shadow: 3px 3px 5px black;
 }
 
 
@@ -176,4 +180,10 @@ article {
 
 legend {
 	font-weight: bold;
+}
+
+#envoyer{
+
+	border-radius: 5px !important;
+	background-color: #FFC107 !important;
 }
