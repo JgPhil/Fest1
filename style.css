@@ -42,6 +42,7 @@ button.navbar-toggler{
 	-webkit-appearance: button !important;
 	background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=#FFC107');
 	background-color: #FFC107 !important;
+	padding: 0 .25rem 0 0.15rem;
 }
 
 #titreIndex{
